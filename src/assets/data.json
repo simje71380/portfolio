@@ -1,0 +1,114 @@
+{
+  "experiences": [
+    {
+      "title": "Tech Lead / Fullstack & AI Developer",
+      "project_name": "Design and Development of an Intelligent Customer Support System",
+      "company": "SOLUTEC",
+      "dates": "Sep 2024 - Present",
+      "description": "<p>I am currently working on the design and development of an intelligent customer support system integrating a multilingual chatbot and callbot (French and English). The project is built on a serverless AWS architecture, utilizing technologies such as Bedrock, Lex, Connect, Lambda, API Gateway, and the Anthropic Claude 3 Haiku LLM.</p>As a Tech Lead and Fullstack & AI Developer, I oversee the system’s architecture to ensure scalability, performance, and security. I implemented a RAG architecture for managing document databases and synchronizing them daily via AWS EventBridge and AWS OpenSearch/KnowledgeBase. I also develop and integrate REST APIs (e.g., Google MyBusiness) and design caching systems to enhance performance and cost.<p>Involved from the start, I contributed to requirements gathering, specification drafting, and need analysis. Working in an Agile Scrum environment with a team of 3 developers and 1 Product Owner, I ensure best practices, code optimization, and technical documentation to ensure the maintainability and scalability of the solution.</p>",
+      "iconBase64": "assets/img/solutec_logo.jpg",
+      "skills": [
+        "assets/img/aws.png",
+        "assets/img/Python.png",
+        "assets/img/Docker.png",
+        "assets/img/BitBucket.png",
+        "assets/img/Jira.png"
+      ]
+    },
+    {
+      "title": "Fullstack & AI Developer Intern",
+      "project_name": "Development of an AI-Powered Expense Management System",
+      "company": "SOLUTEC",
+      "dates": "Feb 2024 - Aug 2024",
+      "description": "<p>During my final-year internship at Solutec, I worked on the development of a complete expense management system, including a React Native mobile app for expense submission, an Angular web interface for validation, management, and data entry, just like the mobile app, and a Spring Boot REST API with PostgreSQL, using JPA/Hibernate for data access.</p><p>A key innovation of the project was the integration of AI and NLP to analyze receipts and automatically pre-fill expense fields from receipt images. This reduced errors and significantly improved the user experience. I also implemented CI/CD pipelines with Docker and SonarQube to automate testing and maintain code quality. Additionally, I developed and executed unit and integration tests using JUnit, Mockito, Jest, and Cypress.io.</p><p>The project followed an Agile Scrum methodology, within a team of two developers, one Product Owner, and one Project Manager. Beyond development, I contributed to the technical documentation and mentored the Product Owner, who came from a mechanical engineering background. Through pair programming and code reviews, I helped him gain a deeper understanding of software development.</p><p>This experience allowed me to strengthen my expertise in back-end development with Java and Spring Boot, front-end development with Angular and React Native, and DevOps practices such as CI/CD and code quality assurance. It also reinforced my ability to work in an Agile environment and collaborate with cross-functional team members.</p>",
+      "iconBase64": "assets/img/solutec_logo.jpg",
+      "skills": [
+        "assets/img/Java.png",
+        "assets/img/Spring.png",
+        "assets/img/TypeScript.png",
+        "assets/img/Angular.png",
+        "assets/img/JavaScript.png",
+        "assets/img/React.png",
+        "assets/img/PostgresSQL.png",
+        "assets/img/JUnit.png",
+        "assets/img/Jest.png",
+        "assets/img/Cypress.png",
+        "assets/img/GitLab.png",
+        "assets/img/Docker.png",
+        "assets/img/Jira.png"
+      ]
+    },
+    {
+      "title": "Software & Driver Development Intern",
+      "project_name": "64-bit Migration and Development of an Ultrasonic Testing Control Application",
+      "company": "CONTROLE MESURE SYSTEMES",
+      "dates": "Sep 2022 - Feb 2023",
+      "description": "<p>During my second year at UTBM, I completed a six-month internship as an assistant engineer at Contrôle Mesure Systèmes (CMS). My main responsibility was to develop a new 64-bit control application for an ultrasonic testing device using Java.</p><p>My initial tasks involved migrating various drivers from 32-bit to a 64-bit environment. I also had to port the existing application, originally developed in C with LabWindows CVI, to a 64-bit platform. During this process, I faced a challenge with a DLL provided exclusively in 32-bit by the manufacturer. To overcome this, I created a 64-bit wrapper for the 32-bit DLL using WoW64 and an ATL server for inter-process communication. I also took the opportunity to update the development environments, migrating from VS2008 to VS2019 and from WDK7 to WDK10, as the 32-bit version of the system was still expected to be maintained for some time.</p><p>Finally, I developed the new application in Java using JavaFX and Scene Builder. To enable communication with PCI cards, I used JNI to interface with pre-existing DLLs, which I recompiled in 64-bit.</p><p>This experience strengthened my skills in low-level development, driver migration, inter-process communication, and modernizing legacy applications while ensuring compatibility with evolving system architectures.</p>",
+      "iconBase64": "assets/img/cms.png",
+      "skills": [
+        "assets/img/Java.png",
+        "assets/img/C.png",
+        "assets/img/C++.png",
+        "assets/img/Windows.png"
+      ]
+    },
+    {
+      "title": "Industrial Software Development Intern",
+      "project_name": "Development & Optimization of a Supervision System",
+      "company": "Michelin",
+      "dates": "Apr 2021 - Jun 2021",
+      "description": "<p>Asynchronous File Copy Application Development</p><p>During my internship at Michelin, I designed and implemented an asynchronous file copy application, independent of the existing supervision system. Using VBA and VB.NET, I developed a solution that ensured efficient file transfers while detecting and reporting issues to the main application.</p><p>Enhancements to the Supervision Application</p><p>I also contributed to improving the supervision system by implementing new features. One key enhancement was integrating barcode scanning to replace manual data entry, making the application more efficient and user-friendly for operators.</p><p>Feasibility Study of an OPC Server</p><p>As part of the project, I conducted a feasibility study on developing an OPC DA (Data Access) server on PcVue, enabling remote data retrieval for trend analysis, including AI-based insights. The study focused on ensuring that the implementation would not disrupt system performance, avoiding slowdowns, crashes, or screen freezes.</p>",
+      "iconBase64": "assets/img/michelin.webp",
+      "skills": [
+        "assets/img/vb.png",
+        "assets/img/net.png",
+        "assets/img/opc.png",
+        "assets/img/pcvue.png"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "school": "University of technology of Belfort Montbéliard (UTBM)",
+      "dates": "2021-2024",
+      "icon": "assets/img/utbm.png",
+      "diploma": "Engineering Degree in Computer Science, specialized in Virtual Worlds and AI"
+    },
+    {
+      "school": "IUT Le Creusot",
+      "dates": "2019-2021",
+      "icon": "assets/img/iut.png",
+      "diploma": "Two-year University Degree in Electrical Engineering and Industrial Computing"
+    }
+  ],
+  "certifications": [
+    {
+      "company": "Amazon Web Services (AWS)",
+      "dates": "Jul 2024",
+      "icon": "assets/img/aws.png",
+      "name": "Cloud Essentials Learning Plan"
+    },
+    {
+      "company": "NVIDIA",
+      "dates": "Sep 2023",
+      "icon": "assets/img/nvidia.png",
+      "name": "Getting Started with Deep Learning"
+    },
+    {
+      "company": "NVIDIA",
+      "dates": "Dec 2021",
+      "icon": "assets/img/nvidia.png",
+      "name": "Fundamentals of accelereated computing with CUDA Python"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Snake AI",
+      "thumbnail": "assets/img/snake.gif",
+      "dates": "Summer 2023",
+      "desc": "This project was developed during my free time. It's a replica of the Snake game implemented in Python, designed for playability by both humans and an AI. The AI functionality is powered by the DQN algorithm and encompasses various observation states (further details available on GitHub). PyTorch was used for implementing and training the AI model.",
+      "icons": ["assets/img/python-color.png", "assets/img/pytorch.png"],
+      "github": "https://github.com/simje71380/SnakeGameAI"
+    }
+  ]
+}

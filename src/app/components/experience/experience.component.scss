@@ -1,0 +1,71 @@
+@import "../../../styles.scss";
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+
+  .right-container {
+    width: 100%;
+  }
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      line-height: 0em;
+    }
+  }
+  .desc {
+    margin: 0.25rem;
+  }
+
+  .subtitle {
+    margin-top: 0px;
+    font-style: italic;
+  }
+
+  .skills-container {
+    display: inline-flex;
+    margin-block: 5px;
+
+    .skill-icon {
+      height: 32px;
+      padding-inline: 0.25rem;
+      background-color: var(--gray0);
+    }
+  }
+
+  .div-separator {
+    border-top: 1px dashed transparent; /* Bordure transparente */
+    border-image: repeating-linear-gradient(
+        to right,
+        var(--gray-low) 0,
+        var(--gray-low) 4px,
+        /* Longueur du dash */ transparent 4px,
+        /* Début de l'espace */ transparent 7px /* Fin de l'espace */
+      )
+      20; /* Ajuste la taille */
+    width: 100%; /* Largeur de la ligne */
+  }
+
+  .v-line {
+    background-color: var(--gray-low);
+    width: 1px;
+    height: 100%;
+    justify-self: center;
+  }
+
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+::ng-deep .desc p {
+  margin-block: 0.325rem;
+}

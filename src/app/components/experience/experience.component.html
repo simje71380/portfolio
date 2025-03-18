@@ -1,0 +1,23 @@
+<div class="--section">
+  <h1 class="--h1">Experiences</h1>
+  <div *ngFor="let xp of xps">
+    <div class="card">
+      <div class="left-container">
+        <img class="--logo" [src]="xp.iconBase64" alt="company logo" />
+        <div class="v-line"></div>
+      </div>
+      <div class="right-container">
+        <div class="title-container">
+          <h2 class="--h2 --gray100 --lh_5">{{ xp.title }}</h2>
+          <p class="--p2 --gray50 --lh_5">{{ xp.dates }}</p>
+        </div>
+        <p class="--p --gray70 subtitle">{{ xp.project_name }}</p>
+        <p class="--p --gray70 desc" [innerHTML]="xp.description"></p>
+        <div class="skills-container" *ngFor="let skill of xp.skills">
+          <img [src]="skill" alt="skill icon" class="skill-icon" />
+        </div>
+        <div class="div-separator"></div>
+      </div>
+    </div>
+  </div>
+</div>

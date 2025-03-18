@@ -1,0 +1,36 @@
+@import "../../../styles.scss";
+
+.container {
+  gap: 3em;
+
+  .top-container {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .title {
+      font-size: 3rem;
+      letter-spacing: -0.05em;
+      margin: 0px;
+    }
+
+    .desc {
+      font-size: 1.25rem;
+      line-height: 1.625;
+      margin: 0;
+    }
+  }
+  .pp {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+}
+
+span {
+  font-weight: 600;
+}
