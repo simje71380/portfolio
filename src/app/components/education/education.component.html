@@ -1,0 +1,17 @@
+<div class="--section">
+    <h1 class="--h1">Education</h1>
+    <div class="educations-container">
+        <div class="card"  *ngFor="let educ of educs">
+            <div class="left-container">
+                <img class="--logo" [src]="educ.icon" alt="school logo">
+            </div>
+            <div class="right-container">
+                <div class="title-container">
+                    <h2 class="--h2 --gray100 --lh_5">{{educ.school}}</h2>
+                    <p class="--p2 --gray50 --lh_5">{{educ.dates}}</p>
+                </div>
+                <p class="--p --gray70 desc">{{educ.diploma}}</p>
+            </div>
+        </div>
+    </div>
+</div>

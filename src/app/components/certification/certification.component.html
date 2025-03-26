@@ -1,0 +1,17 @@
+<div class="--section">
+    <h1 class="--h1">Certifications</h1>
+    <div class="educations-container">
+        <div class="card"  *ngFor="let certif of certifications">
+            <div class="left-container">
+                <img class="--logo" [src]="certif.icon" alt="company logo">
+            </div>
+            <div class="right-container">
+                <div class="title-container">
+                    <h2 class="--h2 --gray100 --lh_5">{{certif.name}}</h2>
+                    <p class="--p2 --gray50 --lh_5">{{certif.dates}}</p>
+                </div>
+                <p class="--p --gray70 desc">{{certif.company}}</p>
+            </div>
+        </div>
+    </div>
+</div>
