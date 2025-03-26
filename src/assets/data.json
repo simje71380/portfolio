@@ -104,11 +104,39 @@
   "projects": [
     {
       "name": "Snake AI",
-      "thumbnail": "assets/img/snake.gif",
+      "thumbnail": "assets/img/snakeAI.gif",
       "dates": "Summer 2023",
       "desc": "This project was developed during my free time. It's a replica of the Snake game implemented in Python, designed for playability by both humans and an AI. The AI functionality is powered by the DQN algorithm and encompasses various observation states (further details available on GitHub). PyTorch was used for implementing and training the AI model.",
       "icons": ["assets/img/python-color.png", "assets/img/pytorch.png"],
       "github": "https://github.com/simje71380/SnakeGameAI"
+    },
+    {
+      "name": "OpenGL Engine",
+      "thumbnail": "assets/img/OpenGL.gif",
+      "dates": "Summer 2023",
+      "desc": "This project involves developing a 3D rendering engine using OpenGL in C++. It is a personal project that I am actively working on in my free time, with the goal of implementing key functionalities such as loading and saving 3D scenes, importing meshes created in Blender, managing materials, implementing lighting and shading effects, and enabling camera movement. Additionally, there is a potential plan to integrate ray tracing in the future.",
+      "icons": ["assets/img/C++.png"],
+      "github": "https://github.com/simje71380/OpenGL_Engine"
+    },
+    {
+      "name": "Genetic Algorithm",
+      "thumbnail": "assets/img/genetic.png",
+      "dates": "Apr 2022 - Jun 2022",
+      "desc": "This project focuses on solving the Assignment, Scheduling, and Routing Problems for employees within a SESSAD (Specialized Educational and Support Service at Home) setting. The project was undertaken as part of the academic curriculum, aiming to address the challenges of optimizing employee schedules and routes efficiently. A comprehensive examination of various operational research algorithms was conducted, leading to the selection of a Genetic Algorithm as the most suitable solution approach. The project involves the implementation of the Genetic Algorithm to effectively solve the given problem.",
+      "icons": ["assets/img/C++.png"],
+      "github": "https://github.com/simje71380/GeneticAlgo"
+    },
+    {
+      "name": "StudZero",
+      "thumbnail": "assets/img/StudZero.png",
+      "dates": "Apr 2022 - Jun 2022",
+      "desc": "This project was undertaken during an Android development course, working in a team of two. StudZero is a mobile Android application aimed at assisting students in managing their budget using the 'zero-based' budgeting technique. The application is developed in JAVA using Android Studio, and we utilized Penpot for the design phase. My primary focus was on the design and front-end development of the application, while my teammate concentrated on the database with SQLite and statistics screen of the app.",
+      "icons": [
+        "assets/img/Java.png",
+        "assets/img/AndroidStudio.png",
+        "assets/img/SQLite.png"
+      ],
+      "github": "https://github.com/simje71380/Studzero"
     }
   ]
 }
